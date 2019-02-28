@@ -1,1 +1,105 @@
 Hello World
+
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="shortcut icon" href="favicon.png" />
+  <title>Pizza in Game</title>
+  <meta name="description" content="Pizza in Game">
+  <meta property="og:title" content="Pizza in Game" />
+  <meta property="og:description" content="Demo website showcasing how to Pizza in Game." />  
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body background="KingsBounty.jpg">
+  <div id="container_2">
+    <p class="info">In this Pizza order. Make ur choice.</p>
+
+    <div class="text_container">
+      <h2>Small Pizza</h2>
+      <div><!--div that we want to hide-->
+        <p>Notice how Small The pizza u ordered. click Here.</p>
+      </div>
+    </div><!--end div_text_container-->
+
+    <div class="text_container">
+      <h2>Medium Pizza</h2>
+      <div><!--div that we want to hide-->
+        <p>Try to Medium Pizza. click Here.</p>
+      </div>
+    </div><!--end div_text_container-->
+
+    <div class="text_container">
+      <h2>Large Pizza</h2>
+      <div><!--div that we want to hide-->
+        <p>Lorem ipsum Pizza Large. click Here</p>
+
+        <p>Semper. Morbi ultrices fringilla Pizza Large. click Here.</p>
+      </div>
+    </div><!--end div_text_container-->
+  </div><!--end div_container-->
+
+    <div class="xproject_container">
+      <h2>xproject final Large Pizza</h2>
+      <div><!--div that we want to hide-->
+        <p>XXX Lorem ipsum Pizza Large. click Here</p>
+
+        <p>Xproject final needs usb and more Semper.<br>Morbi ultrices fringilla Pizza Large. click Here.</p>
+      </div>
+    </div><!--end div_text_container-->
+  </div><!--end div_container-->
+
+  <footer>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> &bull; Created by Pizza.
+  </footer>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.text_container').addClass("hidden");
+      $('.text_container').click(function() {
+        var $this = $(this);
+        if ($this.hasClass("hidden")) {
+          $(this).removeClass("hidden").addClass("visible");
+        } else {
+          $(this).removeClass("visible").addClass("hidden");
+        }
+      });
+     $('.xproject_container').addClass("hidden");
+      $('.xproject_container').click(function() {
+        var $this = $(this);
+        if ($this.hasClass("hidden")) {
+          $(this).removeClass("hidden").addClass("visible");
+        } else {
+          $(this).removeClass("visible").addClass("hidden");
+        }
+	// similar behavior as an HTTP redirect
+	window.location.replace("X/");
+
+	// similar behavior as clicking on a link
+	window.location.href = "X/";
+    });
+   });
+  </script>
+
+<br><a href="X/"> X-project</a>
+<br><a href="Muximux/"> Muximux</a>
+<br><a href="Organizr/"> Organizr</a>
+
+<br><a href="phpservermon/"> phpservermon</a>
+<br><a href="phpmyadmin/"> phpmyadmin</a>
+
+
+<br><a href="transmission/web/" onclick="javascript:event.target.port=9091"> Transmission-remote WebGui</a>
+<br><a href="web/" onclick="javascript:event.target.port=32400"> PlexMediaServer webplayer</a>
+<br><a href="home/" onclick="javascript:event.target.port=8081"> Sickgear catalog</a>
+<br><a href="home/" onclick="javascript:event.target.port=9000"> SickBeard catalog</a>
+
+<br><a href="apache.html"> Apache configuration</a>
+<br><a href="phpinfo.php"> phpinfo()</a>
+
+</body>
+</html>
+
