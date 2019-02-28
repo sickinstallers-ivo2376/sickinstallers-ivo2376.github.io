@@ -4,6 +4,14 @@
 
 sickinstallers heeft Verzonden vanuit Outlook
 
+sickgear-installer-debian-ubuntu
+
+easyinstaller for sickgear for debian or ubuntu flavored linux
+
+run with sudo ./sickgear-install-debian.sh
+
+haveRpHun
+
 draft:
 
 sudo apt-get install curl git-core build-essential libsqlite3-dev libbz2-dev libreadline-dev libssl-dev zlib1g-dev
